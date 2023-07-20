@@ -2,6 +2,18 @@
 
 Utiliza DartPad (https://dartpad.dartlang.org/ ) para generar el siguiente reto:
 
+Para correr el reto
+```console
+Reto1: dart run challenge_chapter_2 1
+
+Reto2(Dollar): dart run challenge_chapter_2 2 D 
+Reto2(Euro): dart run challenge_chapter_2 2 E
+Reto2(Pesos): dart run challenge_chapter_2 2 C
+
+Reto3: dart run challenge_chapter_2 3
+
+```
+
 # Ejercicio 1
 
 A partir del siguiente arreglo de edades var ages = [33, 15, 27, 40, 22,19,32,76,45];Crea un programa en Dart que las ordene e imprima la edad mayor, la edad menor y la edad promedio con sus respectivos mensajes: “La edad mayor es: ” , “La edad menor es: ”, “La edad promedio es: ”

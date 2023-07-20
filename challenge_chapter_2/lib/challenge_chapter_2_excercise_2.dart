@@ -38,7 +38,7 @@ groupIncomes(List<int> dollarList){
 
 qualifyIncomes(List<int> dollarList){
   print('Ejercicio 2 - Punto 3');
-  print('Sort ages: ${sortIncomes(dollarList)}!' );
+  print('Sort incomes: ${sortIncomes(dollarList)}!' );
   print('The Minor income is: ${dollarList.first}');
   print('The mayor income is: ${dollarList.last}');
   print('The average income is: ${getAverageIncome(dollarList)}');
