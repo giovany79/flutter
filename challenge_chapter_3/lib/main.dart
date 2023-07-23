@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(title: const Text('Gio bar')),
+      body: const Center(
+          child: Text('Giova Aprendiendo flutter!!!',
+              style: TextStyle(fontSize: 34))),
+    ),
+  ));
 }
 
 class MyApp extends StatelessWidget {
