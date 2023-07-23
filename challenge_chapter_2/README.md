@@ -12,6 +12,8 @@ Reto2(Pesos): dart run challenge_chapter_2 2 C
 
 Reto3: dart run challenge_chapter_2 3
 
+Reto4: dart run challenge_chapter_2 4
+
 ```
 
 # Ejercicio 1
