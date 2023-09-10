@@ -1,5 +1,5 @@
 class AppRoutes {
   AppRoutes._();
-  static const String home = '/';
-  static const String login = 'login-page';
+  static const String login = '/';
+  static const String home = 'home_page';
 }

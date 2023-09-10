@@ -14,4 +14,10 @@ class Copies {
   static const String login = 'Login';
   static const String notAMember = 'Not a Member?';
   static const String registerNow = 'Register Now';
+  static const String userError =
+      'Por favor ingrese un usuario de tamaño valido';
+  static const String userMessage = 'Por favor ingrese un usuario';
+  static const String passwordMessage = 'Por favor ingrese un password';
+  static const String passwordError =
+      'Por favor ingrese un password de tamaño password';
 }
