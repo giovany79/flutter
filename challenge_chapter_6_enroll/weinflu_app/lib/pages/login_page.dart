@@ -214,7 +214,7 @@ class _LoginPageState extends State<LoginPage> {
                     Row(
                       children: [
                         Container(
-                            width: 180,
+                            width: 170,
                             height: 69,
                             decoration: const BoxDecoration(
                                 color: WeinFluColors.brandSecondaryColor,
@@ -238,8 +238,9 @@ class _LoginPageState extends State<LoginPage> {
                                     )),
                               ],
                             )),
+                        const SizedBox(width: 20),
                         Container(
-                            width: 180,
+                            width: 170,
                             height: 69,
                             decoration: const BoxDecoration(
                                 color: WeinFluColors.brandSecondaryColor,
@@ -274,7 +275,10 @@ class _LoginPageState extends State<LoginPage> {
                       children: [
                         const Text(Copies.notAMember),
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.of(context)
+                                  .pushReplacementNamed(AppRoutes.signin);
+                            },
                             child: const Text(
                               Copies.registerNow,
                             )),
