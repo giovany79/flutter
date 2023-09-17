@@ -24,9 +24,12 @@ class Copies {
   static const String userError =
       'Por favor ingrese un usuario de tamaño valido';
   static const String userMessage = 'Por favor ingrese un usuario';
+  static const String nameMessage = 'Por favor ingrese un nombre';
   static const String passwordMessage = 'Por favor ingrese un password';
   static const String passwordError =
       'Por favor ingrese un password de tamaño password';
+  static const String nameError =
+      'Por favor ingrese un nombre de tamaño password';
   static const String signin = 'Sign In';
   static const String name = 'Name';
 }
