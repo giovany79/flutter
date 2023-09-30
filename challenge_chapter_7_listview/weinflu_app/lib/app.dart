@@ -20,7 +20,7 @@ class WeinFluApp extends StatelessWidget {
           case AppRoutes.signin:
             return MaterialPageRoute(builder: (context) => const SigninPage());
           case AppRoutes.viewAll:
-            return MaterialPageRoute(builder: (context) => ViewAllPage());
+            return MaterialPageRoute(builder: (context) => const ViewAllPage());
           case AppRoutes.home:
             return MaterialPageRoute(
                 builder: (context) => HomePage(

@@ -6,12 +6,16 @@ class CustomMoneyDisplay extends StatelessWidget {
   final TextStyle amountStyle;
   final TextStyle amountStyleSmall;
   final EdgeInsets? padding;
+  final EdgeInsets? margin;
+  final Widget? leftSimbol;
   const CustomMoneyDisplay({
     super.key,
     required this.amount,
     required this.amountStyle,
     required this.amountStyleSmall,
     this.padding,
+    this.leftSimbol,
+    this.margin,
   });
 
   @override
